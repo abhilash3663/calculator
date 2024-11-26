@@ -1,5 +1,5 @@
 FROM node:18
 WORKDIR /app
-COPY index.js ..
+COPY . .
 CMD ["node", "index.js"]
 
